@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Chase.js" />
      <Compile Include="Assets\Scripts\Destroy.js" />
      <Compile Include="Assets\Scripts\Patrol.js" />
      <Compile Include="Assets\Scripts\PlayerMovement.js" />
