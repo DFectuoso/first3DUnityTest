@@ -11,6 +11,6 @@ function Update () {
 	
 	
 			
-	transform.position = Vector3.MoveTowards(transform.position, targetEntity.transform.position, moveSpeed * Time.deltaTime);
+	transform.position = Vector3.MoveTowards(transform.position, Vector3(targetEntity.transform.position.x,transform.position.y,targetEntity.transform.position.z), moveSpeed * Time.deltaTime);
 
 }
